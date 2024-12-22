@@ -1,0 +1,75 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.title-h3 {
+  font-family: 'TTHoves-300';
+  color: #bdbdbd;
+  font-size: 64px;
+  line-height: 64px;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+@media (min-width: 640px) {
+  .container {
+    padding: 0 20px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .container {
+    padding: 0 135px;
+  }
+}
+
+@font-face {
+  font-family: "TTHoves-300";
+  src: url(./fonts/TTHoves-ExtraLight.woff2) format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "TTHoves-400";
+  src: url(./fonts/TTHoves-Light.woff2) format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "TTHoves-500";
+  src: url(./fonts/TTHoves-Regular.woff2) format("woff2");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "TTHoves-700";
+  src: url(./fonts/TTHoves-DemiBold.woff2) format("woff2");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "OpenSans-Light";
+  src: url(./fonts/OpenSans-Regular.woff2) format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "SFProDisplay-Bold";
+  src: url(./fonts/SFProDisplay-Bold.woff2) format("woff2");
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
